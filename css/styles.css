@@ -1,1 +1,228 @@
-/* Your styles go here */
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    width: 100%;
+    background: #049E42;
+  }
+  header{
+    background-image: url("../images/ba1.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  .item ul li a img{
+    width: 50px;
+    height: 50px;
+    padding-top: 30px;
+  }
+  .top{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 50%;
+  }
+  .top .item img{
+    margin-left: 8%;
+  }
+  .btns{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .btns button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button1{
+    background-color: #c07219;
+    font-size: 10px;
+  }
+  .button2{
+    background-color: #96533a;
+    font-size: 10px;
+  }
+  .item ul{
+    display: flex;
+    margin-left: 28%;
+  }
+  .item ul li{
+    list-style: none;
+  }
+  .content{
+    padding-top: 0%;
+  }
+  .content h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    color: #F5901A;
+  }
+  .moto{
+    padding-bottom: 40px;
+  }
+  .content p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FDDF91;
+  }
+  .works{
+    margin-top: 10px;
+    padding-bottom: 40px;
+    background-image: url('../images/hero-bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .works .title{
+    padding: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F5901A;
+  }
+  .grid-WhatWeDo {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+  }
+  .grid-WhatWeDo .grid-item p{
+    color: white;
+  }
+  .grid-item .wrk p{
+    font-family: Roboto;
+    padding: 10px;
+  }
+  .grid-item .wrk{
+    width: 283px;
+    height: 80px;
+    background: rgba(196, 196, 196, 0.12);
+  }
+  .grid-WhatWeDo .grid-item .content{
+    width: 570px;
+    height: 240px;
+    background-color: rgba(196, 196, 196, 0.16);
+    padding: 16px;
+  }
+  .grid-WhatWeDo .grid-item .content h3{
+    font-size: 24px;
+    text-align: left;
+    word-break: break-all;
+    color: #FF1284;
+  }
+  .grid-WhatWeDo .grid-item .content p{
+    font-size: 16px;
+    text-align: left;
+  }
+  .grid-WhatWeDo .grid-item{
+    padding: 8px;
+  }
+  .grid-item .content img{
+    width: 60%;
+    height: 170px;
+  }
+  .grid-item img{
+    align-content: center;
+  }
+  .ico-svg{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    text-align: center;
+    background: white;
+  }
+  .abt-content h1{
+    padding-bottom: 70px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .abt-content p{
+    height: 322px;
+    margin-left: 78px;
+    margin-right: 44px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+  }
+  .grid-Keep-In-Touch{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .contact{
+    width: 100%;
+    margin-top: 10px;
+    height: 304px;
+    left: 0px;
+    top: 1019px;
+    background: rgba(244, 144, 26, 0.77);
+  }
+  .contact .title{
+    padding: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #0a0a09;
+  }
+  
+  input[type=text], textarea {
+    width: 100%;
+    background-color: #0f0f0f;
+    color: #FFFFFF;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    background-color: green;
+    margin-bottom: 8px;
+    color: white;
+    width: 40%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  footer{
+    height: 52px;
+    margin-top: 0px;
+    background: #0F0F0F;
+  }
+  footer p{
+    padding-top: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+  }
